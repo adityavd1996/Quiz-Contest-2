@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quiz_contest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/an"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Example.Widget" >
+        <activity
+            android:name="com.example.quiz_contest.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity
+            android:name="com.example.quiz_contest.HomeScreen"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.quiz_contest.LoginScreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.quiz_contest.GameStart"
+           android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.quiz_contest.QuizActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.quiz_contest.FinalActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.quiz_contest.HighScores"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
